@@ -1,7 +1,7 @@
 // components/CreateTempGroup.js
 import React, { useState } from 'react';
 import styles from '../../styles/Home.module.css';
-import { database1, ref, push } from '../firebase';
+import { database1, ref, push } from '../../lib/firebase';
 import Header from './Header';
 import Input from './Input';
 import Error from './Error';

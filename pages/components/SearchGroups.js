@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
-import { database1 } from "../firebase";
+import { database1 } from "../../lib/firebase";
 import styles from '../../styles/Home.module.css';
 import Button from "./Button";
 
